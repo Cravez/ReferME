@@ -4,4 +4,4 @@ version: @version@
 softdepend: [Vault]
 commands:
     referme:
-        description: base command for the ReferME plugin
+        description: main command for the ReferME plugin
