@@ -22,7 +22,7 @@ public class JoinListener extends PluginInjected implements Listener {
         final Storage storage = getPlugin().getStorage();
 
         if(!(storage.getPlayers().getRaw().keySet().contains(event.getPlayer().getUniqueId()))){
-            //add player(with plugin injected) to storage
+            //#hacktoberfest
             PlayerStorage newPlayer = new PlayerStorage(storage.generateId());
             newPlayer.inject(getPlugin());
             //add to cache/storage..
